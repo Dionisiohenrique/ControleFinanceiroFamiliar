@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ControleFinanceiroFamiliar.Application/ControleFinanceiroFamiliar.Application.csproj" Id="46a4381b-0f4b-4e05-b945-e76f5aa3415c" />
+  <Project Path="ControleFinanceiroFamiliar.Domain/ControleFinanceiroFamiliar.Domain.csproj" Id="45f7a6bb-802e-4f18-a40b-d7a551458b4c" />
+  <Project Path="ControleFinanceiroFamiliar.Infra/ControleFinanceiroFamiliar.Infra.csproj" Id="ec0573e4-43bb-4e74-86d2-6e64db2ce601" />
+  <Project Path="ControleFinanceiroFamiliar/ControleFinanceiroFamiliar.Api.csproj" />
+</Solution>
