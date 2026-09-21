@@ -1,7 +1,7 @@
 ﻿using ControleFinanceiroFamiliar.Application.Abstractions;
 using ControleFinanceiroFamiliar.Application.Contracts.MemberDtos;
 using ControleFinanceiroFamiliar.Domain.Common;
-using ControleFinanceiroFamiliar.Domain.Entites;
+using ControleFinanceiroFamiliar.Domain.Entities;
 using ControleFinanceiroFamiliar.Domain.Enums;
 using ControleFinanceiroFamiliar.Domain.Repositories.Abstractions;
 using System;

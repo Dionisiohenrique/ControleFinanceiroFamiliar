@@ -31,7 +31,7 @@ namespace ControleFinanceiroFamiliar.Application.UseCases.Transactions
         public async Task<Result<TransactionDto>> CreateAsync(CreateTransactionRequest req, CancellationToken ct)
         {
             var category = await _categoryRepository.GetByIdAsync(req.CategoryId, ct);
-            if (category is null || !category.Value.Equals(_currentUser.FamilyId))
+            if (category is null || !category.Equals(_currentUser.FamilyId))
                 return Result<TransactionDto>.Fail("Categoria não encontrada.");
 
             var transaction = Transaction.Create(req.Amount, req.Type, req.CategoryId, _currentUser.UserId, _currentUser.FamilyId, req.Date, req.Description);

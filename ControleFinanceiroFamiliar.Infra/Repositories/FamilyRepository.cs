@@ -1,10 +1,11 @@
 ﻿using ControleFinanceiroFamiliar.Domain.Entities;
+using ControleFinanceiroFamiliar.Domain.Repositories.Abstractions;
 using ControleFinanceiroFamiliar.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace ControleFinanceiroFamiliar.Infra.Repositories
 {
-    public class FamilyRepository
+    public class FamilyRepository : IFamilyRepository
     {
         private readonly AppDbContext _db;
         public FamilyRepository(AppDbContext db)

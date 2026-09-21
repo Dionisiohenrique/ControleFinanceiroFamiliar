@@ -1,4 +1,4 @@
-﻿using ControleFinanceiroFamiliar.Domain.Entites;
+﻿using ControleFinanceiroFamiliar.Domain.Entities;
 
 namespace ControleFinanceiroFamiliar.Domain.Repositories.Abstractions
 {
